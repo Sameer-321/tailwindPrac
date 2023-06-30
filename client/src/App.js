@@ -1,9 +1,14 @@
 //rafce
 import React from "react";
-
-const App = () => {
-  return <div>App</div>;
-};
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
+const App = () => (
+  <div>
+    <NavBar />
+    <div>
+      <Home />
+    </div>
+  </div>
+);
 
 export default App;
-asdfasdfasdfasdfasdfasdfasdf;
