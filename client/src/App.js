@@ -1,10 +1,10 @@
 //rafce
 import React from "react";
+import NavBar from "./components/NavBar";
 
 const App = () => (
   <div>
-    <p className="text-4xl font-bold font-signature mt-[25px]">Hello World</p>
-    <p className="font-bold active">hello second for me</p>
+    <NavBar />
   </div>
 );
 
