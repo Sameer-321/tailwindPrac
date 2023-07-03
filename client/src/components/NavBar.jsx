@@ -6,7 +6,7 @@ const NavBar = () => {
   const nav_links = [
     {
       id: 1,
-      link: "home",
+      link: "Home",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "experience",
+      link: "Experience",
     },
     {
       id: 5,
